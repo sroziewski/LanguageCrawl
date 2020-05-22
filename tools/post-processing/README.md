@@ -43,6 +43,7 @@ java -jar file.jar -m de -s 4
 ```
 
 2. Second step is for word statistics calculation
+
 `java -jar file.jar -m s `
 
 This time the count table is filled with unigrams, we use it for word statistics to know which words are very rare, and finally we can omitt them before building ngramspace
